@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go/types"
+)
 
 type User struct {
 	age  int
 	name string
+	n    types.Slice
 }
 
 /*
